@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve",
-    "build": ""[my-framework] build --output public""
+    "build": "[my-framework] build --output public"
   },
   "repository": {
     "type": "git",
