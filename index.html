@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-score">
+        <h3 class="home-title">HOME</h3>
+        <div class="home-score-background">
+          <h3 id="score-home-el">0</h3>
+        </div>
+      </div>
+      <button class="btn" id="freethrow-home-el" onclick="freethrowhome()">
+        +1
+      </button>
+      <button class="btn" id="midrange-home-el" onclick="midrangehome()">
+        +2
+      </button>
+      <button class="btn" id="longthree-home-el" onclick="longthreehome()">
+        +3
+      </button>
+
+      <div class="guest-score">
+        <h3 class="guest-title">GUEST</h3>
+        <div class="guest-score-background">
+          <h3 id="score-guest-el">0</h3>
+        </div>
+        <button class="btn" id="freethrow-guest-el" onclick="freethrowguest()">
+          +1
+        </button>
+        <button class="btn" id="midrange-guest-el" onclick="midrangeguest()">
+          +2
+        </button>
+        <button class="btn" id="longthree-guest-el" onclick="longthreeguest()">
+          +3
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
